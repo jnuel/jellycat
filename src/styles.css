@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'PoiretOne-Regular';
+  src: url('/src/Poiret_One/PoiretOne-Regular.ttf') format('truetype');
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'PoiretOne-Regular', sans-serif;
+  background: #f0f0f0 url('/src/images/homescreen_jellycat_color.jpeg') no-repeat center center;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.start-button {
+  font-size: 36px;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.start-button:hover {
+  background-color: #ddd;
+}
+
+.story-text {
+  font-size: 20px;
+  margin-bottom: 1rem; /* Space above the choices container */
+/* padding-bottom: 5rem; */
+}
+
+.game-container {
+  display: none;
+  margin-top: 10%;
+  overflow: auto;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column; /* Arrange buttons in a column */
+  align-items: center; /* Center the buttons horizontally */
+  gap: 10px; /* Space between the buttons */
+  margin-top: 2rem; /* Space above the choices container */
+  }
+
+
+.choice-button {
+  font-family: 'PoiretOne-Regular', sans-serif;
+  font-size: 18px; /* Adjust font size to be smaller */
+  padding: 1vh 1vw; /* Adjust padding based on viewport height and width */
+  border: 0.5px solid #f2d79e; /* Solid border */
+  background-color: #f6e9bd; /* White background */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+                background-color: #f3dba7; /* Slightly darker background on hover */
